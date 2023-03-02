@@ -3,4 +3,4 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 
 ## License and copyrights
 
-- Source code is licensed under [LGPL 2.1](license.md)
+- Source code is licensed under [LGPL 2.1](./LICENSE.md)
