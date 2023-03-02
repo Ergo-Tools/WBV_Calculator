@@ -1,6 +1,11 @@
 # WBV-Calculator
 Whole body vibration exposure calculation from Axivity accelerometers according to ISO2631 standard
 
+
+
+## Installation:
+Download the tool from Github releases and double click the file **WBV_Calculator_SelfExtract_XXX** to extract the executable file to a folder of your choice. Then start the exeutable file **WBV_Calculator_XXX** to start the software. 
+
 ## License and copyrights
 - Source code is licensed under [LGPL 2.1](./LICENSE.md)
 - Compiled binary releases are licensed under the following Binary release license.
