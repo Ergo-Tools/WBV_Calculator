@@ -1,5 +1,10 @@
 function Settings = LoadSettings(WBVconfig)
-%LOADSETTINGS Load Acti4Lite Settings and activity detection settings
+%LOADSETTINGS Load WBV_Calculator Settings 
+% Input:
+%   WBVconfig: full filepath of the configuration file
+%
+% Output:
+%   Settings: a structure containing Settings
 
 % check whether the config folder exists, if not create it
 [configDir,~,~] = fileparts(WBVconfig);
