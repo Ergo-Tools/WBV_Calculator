@@ -8,7 +8,7 @@ Download the tool from Github releases and double click the file **WBV_Calculato
 
 ## License and copyrights
 - Source code is licensed under [LGPL 2.1](./LICENSE.md)
-- Compiled binary releases are licensed under the following Binary release license.
+- Compiled binary releases are licensed under the following binary release license.
 ### Binary release license
 © 2022, Pasan Hettiarachchi
 Occupational and Environmental Medicine
