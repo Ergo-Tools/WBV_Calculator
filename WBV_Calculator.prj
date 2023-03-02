@@ -1,0 +1,144 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3243524529" file="C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator.prj" location="C:\Users\pashe866\Coding\Matlab\AMM\iso2631" name="WBV_Calculator" preferred-package-location="C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>WBV_Calculator_076</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>0.76</param.version>
+    <param.authnamewatermark>Pasan Hettiarachchi</param.authnamewatermark>
+    <param.email>pasan.hettiarachchi@medsci.uu.se</param.email>
+    <param.company>Uppsala University</param.company>
+    <param.summary>Whole Body Vibration Calculator</param.summary>
+    <param.description>Calculate whole body vibration exposure using Axivity AX3 accelerometers.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Uppsala University\WBV_Calculator_076\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\WBV_Calculator\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\WBV_Calculator\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\WBV_Calculator\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\WBV_Calculator</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>WBV_Calculator</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\WBV_Calculator.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\CalibrateData.m</file>
+      <file>${PROJECT_ROOT}\iso2631_wbv.m</file>
+      <file>${PROJECT_ROOT}\LoadSettings.m</file>
+      <file>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</file>
+      <file>${PROJECT_ROOT}\WBVCalc_About_UI.mlapp</file>
+      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\AutoCalibrate.m</file>
+      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\CWA_readFile.m</file>
+      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\parseDate.mexw64</file>
+      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\parseValueBlock.mexw64</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="splash.png" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="readme.txt" optional="true">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="WBV_Calculator_076.exe" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\WBV_Calculator_076.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
