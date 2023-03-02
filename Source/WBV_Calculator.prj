@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="3243524529" file="C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator.prj" location="C:\Users\pashe866\Coding\Matlab\AMM\iso2631" name="WBV_Calculator" preferred-package-location="C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1263768820" file="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator.prj" location="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator" name="WBV_Calculator" preferred-package-location="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>WBV_Calculator_076</param.appname>
     <param.icon />
     <param.icons />
@@ -77,23 +77,24 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\WBV_Calculator.mlapp</file>
     </fileset.main>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</file>
+      <file>${PROJECT_ROOT}\WBV_Calculator.htm</file>
+    </fileset.resources>
     <fileset.package />
     <fileset.depfun>
+      <file>${PROJECT_ROOT}\AutoCalibrate.m</file>
       <file>${PROJECT_ROOT}\CalibrateData.m</file>
+      <file>${PROJECT_ROOT}\CWA_readFile.m</file>
       <file>${PROJECT_ROOT}\iso2631_wbv.m</file>
       <file>${PROJECT_ROOT}\LoadSettings.m</file>
-      <file>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</file>
-      <file>${PROJECT_ROOT}\WBVCalc_About_UI.mlapp</file>
-      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\AutoCalibrate.m</file>
-      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\CWA_readFile.m</file>
-      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\parseDate.mexw64</file>
-      <file>C:\Users\pashe866\Coding\Matlab\AMM\Utlities\parseValueBlock.mexw64</file>
+      <file>${PROJECT_ROOT}\parseDate.mexw64</file>
+      <file>${PROJECT_ROOT}\parseValueBlock.mexw64</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="splash.png" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="readme.txt" optional="true">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="WBV_Calculator_076.exe" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\iso2631\WBV_Calculator\for_testing\WBV_Calculator_076.exe</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="splash.png" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="readme.txt" optional="true">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="WBV_Calculator_076.exe" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator\for_testing\WBV_Calculator_076.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
