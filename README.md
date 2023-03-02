@@ -7,7 +7,7 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 Download the tool from Github releases and double click the file **WBV_Calculator_SelfExtract_XXX** to extract the executable file to a folder of your choice. Then start the exeutable file **WBV_Calculator_XXX** to start the software. 
 
 ## License and copyrights
-- Source code is licensed under [LGPL 2.1](./LICENSE.md) and [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/). License specified in individual source files are applicable.
+- Source code is licensed under [LGPL v3](./LICENSE.md) and [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/). License specified in individual source files are applicable.
 - Compiled binary releases are licensed under the following binary release license.
 ### Binary release license
 © 2022, Pasan Hettiarachchi,
