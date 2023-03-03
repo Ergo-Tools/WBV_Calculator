@@ -19,7 +19,8 @@ Information about a validation study regarding feasibility, and accuracy of the 
 ## About **WBV Calculator** and support
 - WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
 
-## [Source](https://github.com/Ergo-Tools/WBV_Calculator)
+## Source
+WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
 
 ## License and copyrights
 - Source code is licensed under [LGPL v3](LICENSE.md) and [3-Clause BSD License](LICENSE_BSD-3.md). License specified in individual source files are applicable.
