@@ -12,7 +12,6 @@ Download the tool from Github releases and double click the file **WBV_Calculato
 
 ## Pilot study and validation
 Information about a validation study regarding feasibility, and accuracy of the tool, see:
-- [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](https://ammuppsala.se/wp-content/uploads/2021/05/rapport-nr-1-2021.pdf)'
 - [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](https://github.com/Ergo-Tools/WBV_Calculator/files/10878695/Application_of_low-cost.accelerometers_whole_body_vibrations.pdf)
 
 ## Help and support
