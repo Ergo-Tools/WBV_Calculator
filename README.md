@@ -1,5 +1,5 @@
 # WBV Calculator
-Whole body vibration exposure calculation from Axivity accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as Axivity AX3. 
+Whole body vibration exposure calculation from Axivity accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as [Axivity AX3](https://axivity.com/product/ax3). 
 
 ![User Interface](screenshot.PNG)
 
