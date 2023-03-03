@@ -15,7 +15,7 @@ Information about a validation study regarding feasibility, and accuracy of the 
 - [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](https://ammuppsala.se/wp-content/uploads/2021/05/rapport-nr-1-2021.pdf)
 
 ## Help and support
-- WBV Calculator is no longer active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact the author for more information.
+- WBV Calculator is no longer active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact the [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]WBV_Calculator) for more information.
 
 ## License and copyrights
 - Source code is licensed under [LGPL v3](./LICENSE.md) and [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/). License specified in individual source files are applicable.
@@ -25,6 +25,6 @@ Information about a validation study regarding feasibility, and accuracy of the 
 Occupational and Environmental Medicine,
 Uppsala University, Sweden
 
-Not for commercial use. For redistribution please contact the author: [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]WBV_Calculator)
+Not for commercial use. For redistribution please contact the author.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
