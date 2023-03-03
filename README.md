@@ -18,7 +18,7 @@ Information about a validation study regarding feasibility, and accuracy of the 
 - WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact the [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
 
 ## License and copyrights
-- Source code is licensed under [LGPL v3](./LICENSE.md) and [3-Clause BSD License](https://opensource.org/license/bsd-3-clause/). License specified in individual source files are applicable.
+- Source code is licensed under [LGPL v3](LICENSE.md) and [3-Clause BSD License](LICENSE_2.md). License specified in individual source files are applicable.
 - Compiled binary releases are licensed under the following binary release license.
 ### Binary release license
 © 2022, Pasan Hettiarachchi,
