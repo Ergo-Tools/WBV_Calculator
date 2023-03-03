@@ -8,8 +8,7 @@ Download the tool from Github releases and double click the file **WBV_Calculato
 
 ## Presentations/Demonstrations:
 - [Application of low-cost accelerometers for measurement of whole body vibrationsabout](Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
-- [WBV Calculator demonstration](WBV_Calculator_demo.mp4)
-
+- WBV Calculator demonstration: [download](WBV_Calculator_demo.mp4) [youtube]
 
 ## Pilot study and validation
 Information about a validation study regarding feasibility, and accuracy of the tool, see:
