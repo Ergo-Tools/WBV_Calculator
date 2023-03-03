@@ -4,7 +4,7 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 ![User Interface](screenshot.PNG)
 
 ## Installation:
-- Download the tool from Github releases and double click the file **WBV_Calculator_SelfExtract_XXX.exe** to extract the executable file to a folder of your choice.
+- Download the tool from Github [releases](https://github.com/Ergo-Tools/WBV_Calculator/releases) and double click the file **WBV_Calculator_SelfExtract_XXX.exe** to extract the executable file to a folder of your choice.
 - Install Matlab Runtime 2020b for Windows 64bit from this [link](https://se.mathworks.com/products/compiler/matlab-runtime.html)
 - Then start the exeutable file **WBV_Calculator_XXX.exe** to start the software.
 
