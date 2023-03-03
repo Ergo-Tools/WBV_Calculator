@@ -6,7 +6,7 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 ## Installation:
 Download the tool from Github releases and double click the file **WBV_Calculator_SelfExtract_XXX** to extract the executable file to a folder of your choice. Then start the exeutable file **WBV_Calculator_XXX** to start the software.
 
-## Presentations/Demonstrations:
+## Presentations and demonstrations:
 - [Application of low-cost accelerometers for measurement of whole body vibrations - NES 2022, Uppsala](Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
 - [WBV Calculator demonstration](WBV_Calculator_demo.mp4)
 
