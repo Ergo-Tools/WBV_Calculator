@@ -12,7 +12,7 @@ Download the tool from Github releases and double click the file **WBV_Calculato
 
 ## Pilot study and validation
 Information about a validation study regarding feasibility, and accuracy of the tool, see:
-- [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](https://github.com/Ergo-Tools/WBV_Calculator/files/10878695/Application_of_low-cost.accelerometers_whole_body_vibrations.pdf)
+- [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](https://ammuppsala.se/wp-content/uploads/2021/05/rapport-nr-1-2021.pdf)
 
 ## Help and support
 - WBV Calculator is no longer active development. It is also a beta software and not suitable for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 guidelines (see below). 
