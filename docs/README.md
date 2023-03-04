@@ -17,7 +17,7 @@ Information about a validation study regarding feasibility, and accuracy of the 
 - [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](rapport-nr-1-2021.pdf)
 
 ## Usage and support
-WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Report bugs via GitHub (I will address them as time permits). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
+WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Report bugs via GitHub (will be addressed as time permits). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
 
 ## Source
 WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
