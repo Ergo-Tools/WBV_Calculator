@@ -5,8 +5,8 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 
 ## Installation:
 - Download the tool from Github [releases](https://github.com/Ergo-Tools/WBV_Calculator/releases) and double click the file **WBV_Calculator_SelfExtract_XXX.exe** to extract the executable file to a folder of your choice.
-- Install Matlab Runtime 2020b for Windows 64bit from this [link](https://se.mathworks.com/products/compiler/matlab-runtime.html)
-- Then start the exeutable file **WBV_Calculator_XXX.exe** to start the software.
+- Install Matlab Runtime 2020b for Windows 64bit from this [link](https://mathworks.com/products/compiler/matlab-runtime.html)
+- Then start the executable file **WBV_Calculator_XXX.exe** to start the software.
 
 ## Presentations and demonstrations:
 - [Application of low-cost accelerometers for measurement of whole body vibrations - NES 2022, Uppsala](Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
@@ -19,9 +19,13 @@ Information about a validation study regarding feasibility, and accuracy of the 
 ## About **WBV Calculator** and support
 - WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
 
+## Source
+WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
+
 ## License and copyrights
 - Source code is licensed under [LGPL v3](LICENSE.md) and [3-Clause BSD License](LICENSE_BSD-3.md). License specified in individual source files are applicable.
 - Compiled binary releases are licensed under the following binary release license.
+
 ### Binary release license
 © 2022, Pasan Hettiarachchi,
 Occupational and Environmental Medicine,
