@@ -1,7 +1,7 @@
 # WBV Calculator
 Whole body vibration exposure calculation from Axivity accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as [Axivity AX3](https://axivity.com/product/ax3). 
 
-![User Interface](docs/screenshot.PNG)
+![User Interface](screenshot.PNG)
 
 ## Installation:
 - Download the tool from Github [releases](https://github.com/Ergo-Tools/WBV_Calculator/releases) and double click the file **WBV_Calculator_SelfExtract_XXX.exe** to extract the executable file to a folder of your choice.
@@ -9,12 +9,12 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 - Then start the exeutable file **WBV_Calculator_XXX.exe** to start the software.
 
 ## Presentations and demonstrations:
-- [Application of low-cost accelerometers for measurement of whole body vibrations - NES 2022, Uppsala](docs/Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
-- [WBV Calculator demonstration](docs/WBV_Calculator_demo.mp4)
+- [Application of low-cost accelerometers for measurement of whole body vibrations - NES 2022, Uppsala](Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
+- [WBV Calculator demonstration](WBV_Calculator_demo.mp4)
 
 ## Pilot study and validation
 Information about a validation study regarding feasibility, and accuracy of the tool, see:
-- [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](docs/rapport-nr-1-2021.pdf)
+- [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](rapport-nr-1-2021.pdf)
 
 ## About **WBV Calculator** and support
 - WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
