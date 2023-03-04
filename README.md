@@ -1,5 +1,5 @@
-# WBV Calculator
-Whole body vibration exposure calculation from Axivity accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as [Axivity AX3](https://axivity.com/product/ax3). 
+## WBV Calculator
+WBV Calculator is a tool to calculate Whole body vibration exposure from small wearable accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as [Axivity AX3](https://axivity.com/product/ax3). 
 
 ![User Interface](docs/screenshot.PNG)
 
@@ -16,8 +16,8 @@ Whole body vibration exposure calculation from Axivity accelerometers according 
 Information about a validation study regarding feasibility, and accuracy of the tool, see:
 - [Helkroppsvibrationsmätningar med Axivity AX3 (swedish)](docs/rapport-nr-1-2021.pdf)
 
-## About **WBV Calculator** and support
-- WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
+## Usage and support
+WBV Calculator is no longer under active development. Consider it as a beta software and it is not recommended for critical tasks. See the license below for usage. You are encourage to use the source for your own projects if you adhere to LGPLV3 license (see below). Contact [Pasan Hettiarachchi](mailto:pasan.hettiarachchi@medsci.uu.se?subject=[GitHub]%20WBV_Calculator) for more information.
 
 ## Source
 WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
