@@ -27,7 +27,7 @@ WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Cal
 - Compiled binary releases are licensed under the following binary release license.
 
 ### Binary release license
-© 2022, Pasan Hettiarachchi,
+© 2022, Pasan Hettiarachchi and Peter Johansson,
 Occupational and Environmental Medicine,
 Uppsala University, Sweden
 
