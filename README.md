@@ -22,6 +22,24 @@ WBV Calculator is no longer under active development. Consider it as a beta soft
 ## Source
 WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
 
+## Citing WBV Calculator in academic publications
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7701098.svg)](https://doi.org/10.5281/zenodo.7701098)
+
+Please cite WBV Calculator if you use it in your research projects.
+
+**BibTex Format**
+
+`@software{Hettiarachchi_ActiPASS_2023,
+author = {Hettiarachchi, Pasan and Johansson, Peter},
+doi = {10.5281/zenodo.7701098},
+month = {3},
+title = {{ActiPASS}},
+url = {https://github.com/Ergo-Tools/ActiPASS},
+version = {1.49},
+year = {2023}
+}`
+
 ## License and copyrights
 - Source code is licensed under [LGPL v3](LICENSE.md) and [3-Clause BSD License](LICENSE_BSD-3.md). License specified in individual source files are applicable.
 - Compiled binary releases are licensed under the following binary release license.
