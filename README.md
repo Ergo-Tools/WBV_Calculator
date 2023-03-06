@@ -30,13 +30,13 @@ Please cite WBV Calculator if you use it in your research projects.
 
 **BibTex Format**
 
-`@software{Hettiarachchi_ActiPASS_2023,
+`@software{Hettiarachchi_WBV_Calculator_2023,
 author = {Hettiarachchi, Pasan and Johansson, Peter},
 doi = {10.5281/zenodo.7701744},
 month = {3},
-title = {{ActiPASS}},
-url = {https://github.com/Ergo-Tools/ActiPASS},
-version = {1.49},
+title = {{WBV Calculator}},
+url = {https://github.com/Ergo-Tools/WBV_Calculator},
+version = {0.77},
 year = {2023}
 }`
 
