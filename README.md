@@ -1,5 +1,5 @@
 ## WBV Calculator
-WBV Calculator is a tool to calculate Whole body vibration exposure from small wearable accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure according to ISO 2631 standard using wearable accelerometers such as [Axivity AX3](https://axivity.com/product/ax3). 
+WBV Calculator is a tool to calculate Whole body vibration exposure from small wearable accelerometers according to ISO 2631 standard. We can use this tool to measure whole body vibration exposure using [Axivity AX3](https://axivity.com/product/ax3) or [Axivity AX6](https://axivity.com/product/ax6). Theoretically any other triaxial accelerometer with sufficient range and high enough sampling frequency can be used with minor changes to data file loading part of the software. 
 
 ![User Interface](docs/screenshot.PNG)
 
@@ -21,6 +21,24 @@ WBV Calculator is no longer under active development. Consider it as a beta soft
 
 ## Source
 WBV Calculator source is available [here.](https://github.com/Ergo-Tools/WBV_Calculator)
+
+## Citing WBV Calculator in academic publications
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7701744.svg)](https://doi.org/10.5281/zenodo.7701744)
+
+Please cite WBV Calculator if you use it in your research projects.
+
+**BibTex Format**
+
+    @software{Hettiarachchi_WBV_Calculator_2023,
+    author = {Hettiarachchi, Pasan and Johansson, Peter},
+    doi = {10.5281/zenodo.7701744},
+    month = {3},
+    title = {{WBV Calculator}},
+    url = {https://github.com/Ergo-Tools/WBV_Calculator},
+    version = {0.77},
+    year = {2023}
+    }
 
 ## License and copyrights
 - Source code is licensed under [LGPL v3](LICENSE.md) and [3-Clause BSD License](LICENSE_BSD-3.md). License specified in individual source files are applicable.
