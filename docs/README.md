@@ -46,6 +46,7 @@ Please cite WBV Calculator if you use it in your research projects.
 - Compiled binary releases are licensed under the following binary release license.
 
 ### Binary release license
+
 © 2022, Pasan Hettiarachchi and Peter Johansson,
 Occupational and Environmental Medicine,
 Uppsala University, Sweden
