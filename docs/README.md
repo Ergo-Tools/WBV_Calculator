@@ -35,7 +35,7 @@ Please cite WBV Calculator if you use it in your research projects.
     author = {Hettiarachchi, Pasan and Johansson, Peter},
     doi = {10.5281/zenodo.7701744},
     month = {3},
-    title = {{WBV Calculator}},
+    title = {WBV Calculato}},
     url = {https://github.com/Ergo-Tools/WBV_Calculator},
     version = {0.77},
     year = {2023}
@@ -46,6 +46,7 @@ Please cite WBV Calculator if you use it in your research projects.
 - Compiled binary releases are licensed under the following binary release license.
 
 ### Binary release license
+
 © 2022, Pasan Hettiarachchi and Peter Johansson,
 Occupational and Environmental Medicine,
 Uppsala University, Sweden
