@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
   <configuration build-checksum="1263768820" file="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source\WBV_Calculator.prj" location="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source" name="WBV_Calculator" preferred-package-location="C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\WBV_Calculator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
-    <param.appname>WBV_Calculator_078</param.appname>
+    <param.appname>WBV_Calculator</param.appname>
     <param.icon>${PROJECT_ROOT}\WBV_Calculator_resources\icon.ico</param.icon>
     <param.icons>
       <file>${PROJECT_ROOT}\WBV_Calculator_resources\icon_48.png</file>
@@ -8,18 +8,19 @@
       <file>${PROJECT_ROOT}\WBV_Calculator_resources\icon_24.png</file>
       <file>${PROJECT_ROOT}\WBV_Calculator_resources\icon_16.png</file>
     </param.icons>
-    <param.version>0.78</param.version>
+    <param.version>0.80</param.version>
     <param.authnamewatermark>Pasan Hettiarachchi</param.authnamewatermark>
     <param.email>pasan.hettiarachchi@medsci.uu.se</param.email>
-    <param.company>Uppsala University</param.company>
-    <param.summary>Whole Body Vibration Calculator</param.summary>
-    <param.description>Calculate whole body vibration exposure using Axivity AX3 accelerometers.</param.description>
+    <param.company>Ergo-Tools</param.company>
+    <param.summary>WBV Calculator Calculator: Calculate Whole body vibration exposure from wearable acceleromters</param.summary>
+    <param.description>© 2022, Pasan Hettiarachchi and Peter Johansson, Occupational and Environmental Medicine, Uppsala University, Sweden
+Not for commercial use. For redistribution please contact the author.</param.description>
     <param.screenshot>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\Uppsala University\WBV_Calculator_078\</param.installpath.string>
+    <param.installpath.string>\Ergo-Tools\WBV_Calculator\</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
-    <param.logo />
-    <param.install.notes />
+    <param.logo>${PROJECT_ROOT}\pond5_fb_icon_rebrand_200px.png</param.logo>
+    <param.install.notes>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</param.install.notes>
     <param.target.install.notes />
     <param.intermediate>${PROJECT_ROOT}\WBV_Calculator\for_testing</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\WBV_Calculator\for_redistribution_files_only</param.files.only>
@@ -32,7 +33,7 @@
     <param.web.mcr>true</param.web.mcr>
     <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
-    <param.web.mcr.name>WBV_Calculator</param.web.mcr.name>
+    <param.web.mcr.name>WBV_Calculator_Installer</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
     <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
     <param.windows.command.prompt>true</param.windows.command.prompt>
@@ -46,16 +47,14 @@
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments</param.help.text>
+	 input arguments 
+ Description 
+ 	 © 2022, Pasan Hettiarachchi and Peter Johansson, Occupational and Environmental Medicine, Uppsala University, Sweden
+Not for commercial use. For redistribution please contact the author.</param.help.text>
     <unset>
-      <param.authnamewatermark />
-      <param.email />
-      <param.company />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
-      <param.logo />
-      <param.install.notes />
       <param.target.install.notes />
       <param.intermediate />
       <param.files.only />
@@ -96,17 +95,15 @@
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="splash.png" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source\WBV_Calculator\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="WBV_Calculator_078.exe" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source\WBV_Calculator\for_testing\WBV_Calculator_078.exe</file>
       <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="readme.txt" optional="true">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source\WBV_Calculator\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\WBV_Calculator\for_testing" name="WBV_Calculator.exe" optional="false">C:\Users\pashe866\Coding\Matlab\AMM\Ergo-Tools\WBV_Calculator\Source\WBV_Calculator\for_testing\WBV_Calculator.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2020b</root>
+      <root>C:\Program Files\MATLAB\R2024b</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="gpucoder" />
-        <toolbox name="fixedpoint" />
-        <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -117,16 +114,6 @@
         <gpucoder>
           <enabled>true</enabled>
         </gpucoder>
-      </toolbox>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
