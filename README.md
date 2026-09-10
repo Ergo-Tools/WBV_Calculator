@@ -4,9 +4,11 @@ WBV Calculator is a tool to calculate Whole body vibration exposure from small w
 ![User Interface](docs/screenshot.PNG)
 
 ## Installation:
-- Download the tool from Github [releases](https://github.com/Ergo-Tools/WBV_Calculator/releases) and double click the file **WBV_Calculator_SelfExtract_XXX.exe** to extract the executable file to a folder of your choice.
-- Install Matlab Runtime 2020b for Windows 64bit from this [link](https://mathworks.com/products/compiler/matlab-runtime.html)
-- Then start the executable file **WBV_Calculator_XXX.exe** to start the software.
+- Download the tool from Github [releases](https://github.com/Ergo-Tools/WBV_Calculator/releases) and double click the file **WBV_Calculator_Installer.exe** to extract the executable file to a folder of your choice.
+- Double click the installer and allow execution in Antivirus software (Since the application is not-signed and not widely used, a warning may appear)
+- Follow the installation wizard. It will download the correct version of Matlab runtime and install it (or upgrade existing runtime if needed)
+- Then start **WBV_Calculator** from windows start menu to open the software.
+- Application will load the Matlab runtime (will be slow) and the UI will be shown after some time. Please be patient.
 
 ## Presentations and demonstrations:
 - [Application of low-cost accelerometers for measurement of whole body vibrations - NES 2022, Uppsala](docs/Application_of_low-cost%20accelerometers_whole_body_vibrations.pdf)
